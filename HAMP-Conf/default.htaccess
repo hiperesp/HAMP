@@ -1,0 +1,11 @@
+Options Indexes FollowSymLinks ExecCGI Includes
+AllowOverride All
+Require all granted
+
+#ErrorDocument 400 "<html><body style=\"margin:0px;padding:0px;\"><iframe frameborder=\"no\" style=\"width:100%;height:100%;\" src=\"http://hamp.server/400\"></iframe></body></html>"
+#ErrorDocument 401 "<html><body style=\"margin:0px;padding:0px;\"><iframe frameborder=\"no\" style=\"width:100%;height:100%;\" src=\"http://hamp.server/401\"></iframe></body></html>"
+#ErrorDocument 402 "<html><body style=\"margin:0px;padding:0px;\"><iframe frameborder=\"no\" style=\"width:100%;height:100%;\" src=\"http://hamp.server/402\"></iframe></body></html>"
+#ErrorDocument 403 "<html><body style=\"margin:0px;padding:0px;\"><iframe frameborder=\"no\" style=\"width:100%;height:100%;\" src=\"http://hamp.server/403\"></iframe></body></html>"
+#ErrorDocument 404 "<html><body style=\"margin:0px;padding:0px;\"><iframe frameborder=\"no\" style=\"width:100%;height:100%;\" src=\"http://hamp.server/404\"></iframe></body></html>"
+#ErrorDocument 500 "<html><body style=\"margin:0px;padding:0px;\"><iframe frameborder=\"no\" style=\"width:100%;height:100%;\" src=\"http://hamp.server/500\"></iframe></body></html>"
+#ErrorDocument 503 "<html><body style=\"margin:0px;padding:0px;\"><iframe frameborder=\"no\" style=\"width:100%;height:100%;\" src=\"http://hamp.server/503\"></iframe></body></html>"
